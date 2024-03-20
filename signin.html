@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SignIn</title>
+</head>
+<body>
+    <h2>Register</h2>
+    <form action="register.php" method="post">
+        <label for="username">Uživatelské jméno:</label><br>
+        <input type="text" id="username" name="username" required><br>
+        <label for="password">Heslo:</label><br>
+        <input type="password" id="password" name="password" required><br>
+        <input type="submit" value="Registrovat" formaction="mainpage.html">
+    </form>
+
+    <h2>Login</h2>
+    <form action="login.php" method="post">
+        <label for="login_username">Uživatelské jméno:</label><br>
+        <input type="text" id="login_username" name="login_username" required><br>
+        <label for="login_password">Heslo:</label><br>
+        <input type="password" id="login_password" name="login_password" required><br>
+        <input type="submit" value="Přihlásit" formaction="mainpage.html"> 
+    </form>
+</body>
+</html>
